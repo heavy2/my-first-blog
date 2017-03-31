@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '6q-jq&*+%8w)y19wzmne@_d$o+!_i^hyuezr-c13m&!b1y*lp8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['h2hosu.iptime.org']
 
 
 # Application definition
